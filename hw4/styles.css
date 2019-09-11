@@ -1,10 +1,32 @@
 .stack-node-ui,
-.queue-node-ui {
+.queue-node-ui{
     text-align: center;
-    width: 20px;
-    height: 20px;
-    margin: 5px;
+    height: 30px;
+    max-width: 30px;
+    padding: 5px;
+    margin-left: 5px;
     background-color: gray;
     color: white;
     font-weight: bold;
+    font-size: 20px;
 }
+button {
+    padding: 10px;
+    border: none;
+    font: inherit;
+    color: white;
+    background-color:gray;
+    font-size: 20px;
+    margin: 5px 5px;
+}
+
+h3{
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    padding: 5px;
+}
+
+li{
+    font-size: 20px;    
+}
+

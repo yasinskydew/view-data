@@ -98,7 +98,7 @@ btnTree.onclick = () => {
     }
     btnFindMax.onclick = () => {
         if(bst.root){
-            alert(bst.findMax())
+            alert('max value ' + bst.findMax())
         } else {
             alert('tree is empty')
         }
@@ -106,7 +106,7 @@ btnTree.onclick = () => {
     }
     btnFindMin.onclick = () => {
         if(bst.root){
-            alert(bst.findMin())
+            alert('min value ' + bst.findMin())
         } else {
             alert('tree is empty')
         }
